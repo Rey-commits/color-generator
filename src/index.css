@@ -204,9 +204,11 @@ input.error {
 }
 .color-light .color-value {
   color: var(--clr-white);
+  text-shadow: 2px 2px #1d1c1c;
 }
 .color-light .percent-value {
   color: var(--clr-white);
+  text-shadow: 2px 2px #1d1c1c;
 }
 
 .alert {
