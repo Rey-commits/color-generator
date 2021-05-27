@@ -9,7 +9,7 @@ function App() {
     const [error,
         setError] = useState(false)
     const [list,
-        setList] = useState([]);
+        setList] = useState(new Values("#8d198d").all(10))
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -30,7 +30,7 @@ function App() {
               type="text" 
               value={color} 
               onChange={(e)=> setColor(e.target.value)}
-              placeholder="#f15025"
+              placeholder="#8d198d"
               className={`${error?"error":null}`}
               />
               <button className="btn" type="submit">
